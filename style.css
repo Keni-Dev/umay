@@ -23,10 +23,11 @@ body {
 
 .tite {
   position: absolute;
-  width: 1000%;
-  top: -9rem;
-  right: -3rem;
+  width: 20vmin;
   animation: tite 2s;
+  top: -23vmin;
+  right: -9vmin;
+  z-index: 2;
 }
 
 @keyframes tite {
